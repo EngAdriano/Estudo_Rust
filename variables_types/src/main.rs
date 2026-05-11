@@ -10,7 +10,7 @@ const MINUTES_IN_HOUR: u32 = 60; // constante, não pode ser alterada
 const SECONDS_IN_HOUR: u32 = SECONDS_IN_MINUTE * MINUTES_IN_HOUR; // constante calculada a partir de outras constantes
 
 fn main() {
-    
+
     println!("O número de segundos em uma hora é: {}", SECONDS_IN_HOUR);
 
     let total: i32 = 30; // variável imutável
@@ -25,7 +25,6 @@ fn main() {
 
     let y: i32 = 10; // immutable variable
     println!("O valor de y é: {}", y);
-
     // y = 11; // isto causará um erro de compilação porque y é imutável
 
     {
