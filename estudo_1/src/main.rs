@@ -17,4 +17,3 @@ fn main() {
     println!("The sum of {} and {} is {}", num1, num2, sum);
 }
 
-
